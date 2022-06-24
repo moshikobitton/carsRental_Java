@@ -163,8 +163,8 @@ public class SignUp extends JFrame{
 				//Read from the file.
 				ArrayList<User> userList =(ArrayList<User>) Functions.readFromFile("Users");
 				
-				// Admin - email - admin@ruppin.com
-				//         password - admin.
+				// Admin - email - admin@mail.com
+				//         password - admin123.
 				
 				String userPassToAdd = new String(userPass.getPassword());
 				User toAdd = new User(email.getText(),userPassToAdd,false);
